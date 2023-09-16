@@ -5,7 +5,7 @@ export const fakeData = {
       "title": "Amazing Sunset View",
       "post_comment": "This sunset was absolutely breathtaking. I couldn't believe my eyes when I saw it!",
       "author": "NatureLover123",
-      "subreddit": "nature",
+      "subreddit": "Nature",
       "score": 325,
       "img": "https://example.com/sunset.jpg",
       "comments": [
@@ -26,7 +26,7 @@ export const fakeData = {
       "title": "Delicious Homemade Pizza Recipe",
       "post_comment": "I've been making this pizza for years, and it never fails to impress. The secret is in the sauce!",
       "author": "ChefMaster99",
-      "subreddit": "cooking",
+      "subreddit": "Cooking",
       "score": 512,
       "img": "https://example.com/pizza.jpg",
       "comments": [
@@ -47,7 +47,7 @@ export const fakeData = {
       "title": "Incredible Space Exploration News",
       "post_comment": "This discovery opens up so many possibilities for the future of space travel. Exciting times ahead!",
       "author": "AstroGeek42",
-      "subreddit": "space",
+      "subreddit": "Space",
       "score": 789,
       "img": "https://example.com/space.jpg",
       "comments": [
@@ -68,7 +68,7 @@ export const fakeData = {
       "title": "Hilarious Cat Compilation",
       "post_comment": "These cats are the funniest I've ever seen. I can watch this video on repeat!",
       "author": "CatLover2000",
-      "subreddit": "cats",
+      "subreddit": "Cats",
       "score": 632,
       "img": "https://example.com/cats.jpg",
       "comments": [
@@ -89,7 +89,7 @@ export const fakeData = {
       "title": "Gaming Tips for Newbies",
       "post_comment": "Starting out in the gaming world? These tips will give you a head start!",
       "author": "GameGuruX",
-      "subreddit": "gaming",
+      "subreddit": "Gaming",
       "score": 421,
       "img": "https://example.com/gaming.jpg",
       "comments": [
@@ -110,7 +110,7 @@ export const fakeData = {
       "title": "Breathtaking Mountain Range",
       "post_comment": "I hiked for hours to get to this viewpoint. The view was worth every step!",
       "author": "AdventureSeeker55",
-      "subreddit": "nature",
+      "subreddit": "Nature",
       "score": 456,
       "img": "https://example.com/mountains.jpg",
       "comments": [
@@ -131,7 +131,7 @@ export const fakeData = {
       "title": "Mouthwatering Chocolate Fondue",
       "post_comment": "A perfect dessert for any occasion. The combination of chocolate and fruits is heavenly!",
       "author": "SweetToothChef",
-      "subreddit": "cooking",
+      "subreddit": "Cooking",
       "score": 378,
       "img": "https://example.com/fondue.jpg",
       "comments": [
@@ -152,7 +152,7 @@ export const fakeData = {
       "title": "Awe-Inspiring Nebula",
       "post_comment": "The colors and patterns in this nebula are mesmerizing. Nature's art at its finest!",
       "author": "AstroArtiste",
-      "subreddit": "space",
+      "subreddit": "Space",
       "score": 654,
       "img": "https://example.com/nebula.jpg",
       "comments": [

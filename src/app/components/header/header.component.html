@@ -1,0 +1,27 @@
+<header class="flex justify-between px-5 items-center bg-zinc-900">
+  <img class="w-24" src="../../../assets/logo.png" alt="logo">
+
+  <div class="px-3 flex items-center">
+    <img class="inline-block w-7" src="../../../assets/house.svg" alt="">
+    <select class="bg-transparent pr-32 hover:cursor-pointer focus:outline-none" id="subredditSelect" [(ngModel)]="selectedSubreddit">
+      <option class="text-black" value="Página inicial">Página inicial</option>
+      <option class="text-black" *ngFor="let subreddit of subreddits" [value]="subreddit">{{ subreddit }}</option>
+    </select>
+  </div>
+
+  <label for="search-input" class="bg-zinc-800 w-7/12 px-4 py-2 rounded-full border border-zinc-900 hover:border-white focus-within:rounded-br-none">
+    <img class="inline-block w-7 mr-3" src="../../../assets/search.svg" alt="">
+    <input class="bg-transparent w-10/12 focus:outline-none hover:cursor-text text-sm text-white" type="text" name="search" id="search-input" placeholder="Buscar no Reddit">
+  </label>
+
+  <img class="w-8" src="../../../assets/plus.svg" alt="postar">
+
+  <a class="flex gap-2 justify-start items-center pr-20 px-2 p-1 m-1 rounded hover:border-zinc-500 border border-zinc-900" href="https://henriksantos.github.io/">
+    <img class="w-6 rounded" src="../../../assets/avatar.png" alt="">
+    <div>
+      <p class="text-xs">Henrik Santos</p>
+      <p class="text-xs">❤️ karma</p>
+    </div>
+  </a>
+
+</header>
