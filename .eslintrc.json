@@ -34,6 +34,10 @@
       "error",
       "double"
     ],
+    "indent": [
+      "error", 
+      2
+    ],
     "semi": [
       "error",
       "always"

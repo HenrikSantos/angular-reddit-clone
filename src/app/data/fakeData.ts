@@ -5,9 +5,12 @@ export const fakeData = {
       "title": "Amazing Sunset View",
       "post_comment": "This sunset was absolutely breathtaking. I couldn't believe my eyes when I saw it!",
       "author": "NatureLover123",
-      "subreddit": "Nature",
+      "subreddit": {
+        "name": "Nature",
+        "image": "https://images.pexels.com/photos/14934612/pexels-photo-14934612.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 325,
-      "img": "https://example.com/sunset.jpg",
+      "img": "https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "comments": [
         {
           "comment_author": "User1",
@@ -26,9 +29,12 @@ export const fakeData = {
       "title": "Delicious Homemade Pizza Recipe",
       "post_comment": "I've been making this pizza for years, and it never fails to impress. The secret is in the sauce!",
       "author": "ChefMaster99",
-      "subreddit": "Cooking",
+      "subreddit": {
+        "name": "Cooking",
+        "image": "https://images.pexels.com/photos/3622643/pexels-photo-3622643.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 512,
-      "img": "https://example.com/pizza.jpg",
+      "img": "https://images.pexels.com/photos/2608049/pexels-photo-2608049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "comments": [
         {
           "comment_author": "Foodie101",
@@ -47,9 +53,12 @@ export const fakeData = {
       "title": "Incredible Space Exploration News",
       "post_comment": "This discovery opens up so many possibilities for the future of space travel. Exciting times ahead!",
       "author": "AstroGeek42",
-      "subreddit": "Space",
+      "subreddit": {
+        "name": "Space",
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 789,
-      "img": "https://example.com/space.jpg",
+      "img": "https://images.pexels.com/photos/39561/solar-flare-sun-eruption-energy-39561.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "comments": [
         {
           "comment_author": "SpaceEnthusiast",
@@ -68,9 +77,12 @@ export const fakeData = {
       "title": "Hilarious Cat Compilation",
       "post_comment": "These cats are the funniest I've ever seen. I can watch this video on repeat!",
       "author": "CatLover2000",
-      "subreddit": "Cats",
+      "subreddit": {
+        "name": "Cats",
+        "image": "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 632,
-      "img": "https://example.com/cats.jpg",
+      "img": "https://images.pexels.com/photos/18240875/pexels-photo-18240875/free-photo-of-fotografia-animal-fotografia-de-animais-gato-malhado.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "comments": [
         {
           "comment_author": "KittyFanatic",
@@ -89,9 +101,12 @@ export const fakeData = {
       "title": "Gaming Tips for Newbies",
       "post_comment": "Starting out in the gaming world? These tips will give you a head start!",
       "author": "GameGuruX",
-      "subreddit": "Gaming",
+      "subreddit": {
+        "name": "Gaming",
+        "image": "https://images.pexels.com/photos/4523020/pexels-photo-4523020.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 421,
-      "img": "https://example.com/gaming.jpg",
+      "img": "https://images.pexels.com/photos/2728255/pexels-photo-2728255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "comments": [
         {
           "comment_author": "GamerGirl123",
@@ -110,9 +125,12 @@ export const fakeData = {
       "title": "Breathtaking Mountain Range",
       "post_comment": "I hiked for hours to get to this viewpoint. The view was worth every step!",
       "author": "AdventureSeeker55",
-      "subreddit": "Nature",
+      "subreddit": {
+        "name": "Nature",
+        "image": "https://images.pexels.com/photos/14934612/pexels-photo-14934612.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 456,
-      "img": "https://example.com/mountains.jpg",
+      "img": "https://images.pexels.com/photos/1647972/pexels-photo-1647972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "comments": [
         {
           "comment_author": "MountainLover",
@@ -131,9 +149,12 @@ export const fakeData = {
       "title": "Mouthwatering Chocolate Fondue",
       "post_comment": "A perfect dessert for any occasion. The combination of chocolate and fruits is heavenly!",
       "author": "SweetToothChef",
-      "subreddit": "Cooking",
+      "subreddit": {
+        "name": "Cooking",
+        "image": "https://images.pexels.com/photos/3622643/pexels-photo-3622643.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 378,
-      "img": "https://example.com/fondue.jpg",
+      "img": "https://images.pexels.com/photos/12405788/pexels-photo-12405788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "comments": [
         {
           "comment_author": "DessertFanatic",
@@ -152,9 +173,12 @@ export const fakeData = {
       "title": "Awe-Inspiring Nebula",
       "post_comment": "The colors and patterns in this nebula are mesmerizing. Nature's art at its finest!",
       "author": "AstroArtiste",
-      "subreddit": "Space",
+      "subreddit": {
+        "name": "Space",
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },
       "score": 654,
-      "img": "https://example.com/nebula.jpg",
+      "img": "https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "comments": [
         {
           "comment_author": "StellarObserver",

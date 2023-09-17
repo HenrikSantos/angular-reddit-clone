@@ -1,0 +1,9 @@
+<svg stroke="#666869" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>comment-svg</title>
+	<defs>
+		<image  width="21" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAMAAAAYXScKAAAAAXNSR0IB2cksfwAAAJBQTFRFAAAAaWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraWpraGhraWlpaGhqaWpraGlqaWlqZ2lpaWpraWpraWlraWpraWpraWpraWlraWpraWpraGpqaWpraWlq8NaDuwAAADB0Uk5TAAEC/yYYAw8KCQXsExESFhseJRwr7yn2KAAIH/AAAADtBQoAB/1NFCAGAOojBVUAry7ovwAAAJ5JREFUeJyV0MkSgjAQBNBgK4GIu6hxCe778v9/J5NBdPCifUnNq0lS1Uq9E9QorwmVkNWrSNwAQq11FJQPxTmbJkIlktAy0JLaZu1I7bL2pPZZB1KHrNEfGv+kqVcjdTT2OilGq6a0MJujaGzhMmutWZalrehcbwg/mrR2i93+YI4eghPXnl89X663e8pLRdxDOWgI48/xVRwFSMT8BIpeCCtA5y7kAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="1" y="1"/>
+</svg>

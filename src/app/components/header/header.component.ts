@@ -7,5 +7,5 @@ import { Component } from "@angular/core";
 })
 export class HeaderComponent {
   subreddits = ["Nature", "Cooking", "Space", "Cats", "Gaming"];
-  selectedSubreddit = "Página inicial";
+  selectedSubreddit = "Homepage";
 }

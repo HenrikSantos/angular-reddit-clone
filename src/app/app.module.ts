@@ -8,6 +8,8 @@ import { MainComponent } from "./pages/main/main.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { PostRouteComponent } from "./pages/post-route/post-route.component";
 import { PostComponent } from "./components/post/post.component";
+import { CreateYourOwnPageComponent } from "./components/create-your-own-page/create-your-own-page.component";
+import { RecentPostsComponent } from "./components/recent-posts/recent-posts.component";
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PostComponent } from "./components/post/post.component";
     MainComponent,
     HeaderComponent,
     PostRouteComponent,
-    PostComponent
+    PostComponent,
+    CreateYourOwnPageComponent,
+    RecentPostsComponent
   ],
   imports: [
     BrowserModule,
