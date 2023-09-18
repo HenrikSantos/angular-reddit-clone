@@ -1,29 +1,57 @@
-<header class="flex justify-between px-5 items-center bg-[#1a1a1b] sticky top-0 w-full z-10 border border-[#38393a]">
-  <img class="w-[5.8rem]" src="../../../assets/logo.png" alt="logo">
+<header
+  class="sticky top-0 z-10 flex w-full items-center justify-between border border-[#38393a] bg-[#1a1a1b] px-5"
+>
+  <img class="w-[5.8rem]" src="../../../assets/logo.png" alt="logo" />
 
-  <div class="flex items-center W-2/12">
-    <img class="inline-block w-6" src="../../../assets/house.svg" alt="">
-    <select class="bg-transparent pr-28 pl-2 hover:cursor-pointer focus:outline-none" id="subredditSelect" [(ngModel)]="selectedSubreddit">
+  <div class="W-2/12 flex items-center">
+    <img class="inline-block w-6" src="../../../assets/house.svg" alt="" />
+    <select
+      class="bg-transparent pl-2 pr-28 hover:cursor-pointer focus:outline-none"
+      id="subredditSelect"
+      [(ngModel)]="selectedSubreddit"
+    >
       <option class="text-black" value="Homepage">Homepage</option>
-      <option class="text-black" *ngFor="let subreddit of subreddits" [value]="subreddit">{{ subreddit }}</option>
+      <option
+        class="text-black"
+        *ngFor="let subreddit of subreddits"
+        [value]="subreddit"
+      >
+        {{ subreddit }}
+      </option>
     </select>
   </div>
 
-  <label class="bg-[#272729] w-[60%] px-4 py-2 rounded-full border border-[#38393a] hover:border-white focus-within:rounded-bl-none flex items-center" for="search-input" >
-    <img class="inline-block w-[1.40rem] mr-3" src="../../../assets/search.svg" alt="">
-    <input class="bg-transparent w-10/12 focus:outline-none hover:cursor-text text-sm text-white placeholder-[#898685]" type="text" name="search" id="search-input" placeholder="Search on Reddit">
+  <label
+    class="flex w-[60%] items-center rounded-full border border-[#38393a] bg-[#272729] px-4 py-2 focus-within:rounded-bl-none hover:border-white"
+    for="search-input"
+  >
+    <img
+      class="mr-3 inline-block w-[1.40rem]"
+      src="../../../assets/search.svg"
+      alt=""
+    />
+    <input
+      class="w-10/12 bg-transparent text-sm text-white placeholder-[#898685] hover:cursor-text focus:outline-none"
+      type="text"
+      name="search"
+      id="search-input"
+      placeholder="Search on Reddit"
+    />
   </label>
 
-  <img class="w-8" src="../../../assets/plus.svg" alt="postar">
-  <a class="flex w-[12%] px-2 py-1 gap-10 justify-between rounded hover:border-zinc-500 border border-zinc-900" href="https://henriksantos.github.io/" target="_blank" >
-    <div class="flex gap-2 items-center">
-      <img class="w-6 rounded" src="../../../assets/avatar.png" alt="">
+  <img class="w-8" src="../../../assets/plus.svg" alt="postar" />
+  <a
+    class="flex w-[12%] justify-between gap-10 rounded border border-zinc-900 px-2 py-1 hover:border-zinc-500"
+    href="https://henriksantos.github.io/"
+    target="_blank"
+  >
+    <div class="flex items-center gap-2">
+      <img class="w-6 rounded" src="../../../assets/avatar.png" alt="" />
       <div class="text-end">
         <p class="text-xs">Henrik Santos</p>
         <p class="text-xs">❤️ 999 karma</p>
       </div>
     </div>
-    <img src="../../../assets/drop-down.svg" alt="">
+    <img src="../../../assets/drop-down.svg" alt="" />
   </a>
-
 </header>

@@ -1,40 +1,77 @@
-
-<section class="flex rounded-md border border-[#343536] mb-5">
+<section class="mb-5 flex rounded-md border border-[#343536]">
   <div class="bg-zinc-900 p-2">
-    <button class="hover:bg-zinc-600 hover:rounded">
-      <img class="w-8" src="../../../assets/arrow-up.svg" alt="">
+    <button class="hover:rounded hover:bg-zinc-600">
+      <img class="w-8" src="../../../assets/arrow-up.svg" alt="" />
     </button>
-      <p class="text-sm text-center mt-1 mb-2">{{post.score}}</p>
-    <button class="hover:bg-zinc-600 hover:rounded">
-      <img class="w-8" src="../../../assets/arrow-down.svg" alt="">
+    <p class="mb-2 mt-1 text-center text-sm">{{ post.score }}</p>
+    <button class="hover:rounded hover:bg-zinc-600">
+      <img class="w-8" src="../../../assets/arrow-down.svg" alt="" />
     </button>
   </div>
-  <div class="bg-[#1a1a1b] py-2 w-full px-2">
+  <a class="w-full bg-[#1a1a1b] px-2 py-2" (click)="navigatoToPost()">
     <div>
-      <img class="inline-block w-6 h-6 object-cover rounded-full" src={{post.subreddit.image}} alt="post image">
-      <span class="text-sm py-1 ml-1">r/{{post.subreddit.name}}<span class="font-thin text-xs text-zinc-500">• send by u/{{post.author}}</span></span>
+      <img
+        class="inline-block h-6 w-6 rounded-full object-cover"
+        src="{{ post.subreddit.image }}"
+        alt="post image"
+      />
+      <span class="ml-1 py-1 text-sm"
+        >r/{{ post.subreddit.name
+        }}<span class="text-xs font-thin text-zinc-500"
+          >• send by u/{{ post.author }}</span
+        ></span
+      >
     </div>
-    <h1 class="text-lg font-bold py-1">{{post.title}}</h1>
+    <h1 class="py-1 text-lg font-bold">{{ post.title }}</h1>
     <div class="rounded-md">
-      <p class="py-2">{{post.post_comment}}</p>
-      <img class="max-w-full mx-auto max-h-[28rem]" src={{post.img}} alt="post image">
-      <div class="px-2 pt-3 flex gap-1">
-        <button class="flex items-center hover:bg-[#2d2d2e] px-1 hover:rounded">
-          <img class="w-5 inline-block" src="../../../assets/comment.svg" alt="comment image">
-          <span class="px-1 font-bold text-xs hover:cursor-pointer text-zinc-400">{{post.comments.length}} Comments</span>
+      <p class="py-2">{{ post.post_comment }}</p>
+      <img
+        class="mx-auto max-h-[28rem] max-w-full"
+        src="{{ post.img }}"
+        alt="post image"
+      />
+      <div class="flex gap-1 px-2 pt-3">
+        <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+          <img
+            class="inline-block w-5"
+            src="../../../assets/comment.svg"
+            alt="comment image"
+          />
+          <span
+            class="px-1 text-xs font-bold text-zinc-400 hover:cursor-pointer"
+            >{{ post.comments.length }} Comments</span
+          >
         </button>
-        <button class="flex items-center hover:bg-[#2d2d2e] px-1 hover:rounded">
-          <img class="w-8 inline-block" src="../../../assets/share.svg" alt="share image">
-          <span class="px-1 font-bold text-xs hover:cursor-pointer text-zinc-400">Share</span>
+        <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+          <img
+            class="inline-block w-8"
+            src="../../../assets/share.svg"
+            alt="share image"
+          />
+          <span
+            class="px-1 text-xs font-bold text-zinc-400 hover:cursor-pointer"
+            >Share</span
+          >
         </button>
-        <button class="flex items-center hover:bg-[#2d2d2e] px-1 hover:rounded ">
-          <img class="w-6 inline-block" src="../../../assets/flag.svg" alt="save image">
-          <span class="px-1 font-bold text-xs hover:cursor-pointer text-zinc-400">Save</span>
+        <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+          <img
+            class="inline-block w-6"
+            src="../../../assets/flag.svg"
+            alt="save image"
+          />
+          <span
+            class="px-1 text-xs font-bold text-zinc-400 hover:cursor-pointer"
+            >Save</span
+          >
         </button>
-        <button class="flex items-center hover:bg-[#2d2d2e] px-1 hover:rounded ">
-          <img class="w-6 inline-block" src="../../../assets/dots.svg" alt="dots image">
+        <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+          <img
+            class="inline-block w-6"
+            src="../../../assets/dots.svg"
+            alt="dots image"
+          />
         </button>
       </div>
     </div>
-  </div>
+  </a>
 </section>

@@ -10,6 +10,7 @@ import { PostRouteComponent } from "./pages/post-route/post-route.component";
 import { PostComponent } from "./components/post/post.component";
 import { CreateYourOwnPageComponent } from "./components/create-your-own-page/create-your-own-page.component";
 import { RecentPostsComponent } from "./components/recent-posts/recent-posts.component";
+import { FullPostComponent } from "./components/full-post/full-post.component";
 
 @NgModule({
   declarations: [
@@ -19,14 +20,11 @@ import { RecentPostsComponent } from "./components/recent-posts/recent-posts.com
     PostRouteComponent,
     PostComponent,
     CreateYourOwnPageComponent,
-    RecentPostsComponent
+    RecentPostsComponent,
+    FullPostComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
