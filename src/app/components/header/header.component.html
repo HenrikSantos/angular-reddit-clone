@@ -1,21 +1,15 @@
-<header
-  class="sticky top-0 z-10 flex w-full items-center justify-between border border-[#38393a] bg-[#1a1a1b] px-5"
->
-  <img class="w-[5.8rem]" src="../../../assets/logo.png" alt="logo" />
-
+<header class="sticky top-0 z-10 flex w-full items-center justify-between border border-[#38393a] bg-[#1a1a1b] px-5">
+  <a (click)="navigatoToMain()">
+    <img class="w-[5.8rem]" src="../../../assets/logo.png" alt="logo" />
+  </a>
   <div class="W-2/12 flex items-center">
-    <img class="inline-block w-6" src="../../../assets/house.svg" alt="" />
-    <select
-      class="bg-transparent pl-2 pr-28 hover:cursor-pointer focus:outline-none"
-      id="subredditSelect"
-      [(ngModel)]="selectedSubreddit"
-    >
+    <a (click)="navigatoToMain()">
+      <img class="inline-block w-6" src="../../../assets/house.svg" alt="" />
+    </a>
+    <select class="bg-transparent pl-2 pr-28 hover:cursor-pointer focus:outline-none" id="subredditSelect"
+      [(ngModel)]="selectedSubreddit">
       <option class="text-black" value="Homepage">Homepage</option>
-      <option
-        class="text-black"
-        *ngFor="let subreddit of subreddits"
-        [value]="subreddit"
-      >
+      <option class="text-black" *ngFor="let subreddit of subreddits" [value]="subreddit">
         {{ subreddit }}
       </option>
     </select>
@@ -23,28 +17,15 @@
 
   <label
     class="flex w-[60%] items-center rounded-full border border-[#38393a] bg-[#272729] px-4 py-2 focus-within:rounded-bl-none hover:border-white"
-    for="search-input"
-  >
-    <img
-      class="mr-3 inline-block w-[1.40rem]"
-      src="../../../assets/search.svg"
-      alt=""
-    />
-    <input
-      class="w-10/12 bg-transparent text-sm text-white placeholder-[#898685] hover:cursor-text focus:outline-none"
-      type="text"
-      name="search"
-      id="search-input"
-      placeholder="Search on Reddit"
-    />
+    for="search-input">
+    <img class="mr-3 inline-block w-[1.40rem]" src="../../../assets/search.svg" alt="" />
+    <input class="w-10/12 bg-transparent text-sm text-white placeholder-[#898685] hover:cursor-text focus:outline-none"
+      type="text" name="search" id="search-input" placeholder="Search on Reddit" />
   </label>
 
   <img class="w-8" src="../../../assets/plus.svg" alt="postar" />
-  <a
-    class="flex w-[12%] justify-between gap-10 rounded border border-zinc-900 px-2 py-1 hover:border-zinc-500"
-    href="https://henriksantos.github.io/"
-    target="_blank"
-  >
+  <a class="flex w-[12%] justify-between gap-10 rounded border border-zinc-900 px-2 py-1 hover:border-zinc-500"
+    href="https://henriksantos.github.io/" target="_blank">
     <div class="flex items-center gap-2">
       <img class="w-6 rounded" src="../../../assets/avatar.png" alt="" />
       <div class="text-end">

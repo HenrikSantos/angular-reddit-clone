@@ -1,5 +1,5 @@
-<main class="w-5/12 mx-auto rounded-md border border-[#343536] my-5 bg-[#1a1a1b]">
-  <section class="flex">
+<main class="w-5/12 mx-auto my-5">
+  <section class="flex bg-[#1a1a1b] border border-[#343536] rounded-t-md">
     <div class="p-2">
       <button class="hover:rounded hover:bg-zinc-600">
         <img class="w-8" src="../../../assets/arrow-up.svg" alt="" />
@@ -40,14 +40,36 @@
       </div>
     </div>
   </section>
-  <hr>
-  <ul>
-    <li *ngFor="let comment of post.comments">
-      <div class="flex items-center gap-2">
-        <img class="inline-block h-6 w-6 rounded-full object-cover" src="../../../assets/avatar.png" alt="">
-        <span>{{ comment.comment_author }}</span>
-      </div>
-      <p class="px-8">{{ comment.comment_text }}</p>
-    </li>
-  </ul>
+  <section class="bg-[#1a1a1b] my-3 border border-[#343536] rounded-b-md p-3">
+    <ul>
+      <li *ngFor="let comment of post.comments">
+        <div class="flex items-center gap-2">
+          <img class="inline-block h-6 w-6 rounded-full object-cover" src="../../../assets/avatar.png" alt="">
+          <span>{{ comment.comment_author }}</span>
+        </div>
+        <div class="ml-3 mt-2 mb-8 px-3 border-s-2 border-[#343536] ">
+          <p class="font-thin">{{ comment.comment_text }}</p>
+          <div class="flex items-center pt-2">
+            <button class="hover:rounded hover:bg-zinc-600">
+              <img class="w-8" src="../../../assets/arrow-up.svg" alt="" />
+            </button>
+            <span>•</span>
+            <button class="hover:rounded hover:bg-zinc-600">
+              <img class="w-8" src="../../../assets/arrow-down.svg" alt="" />
+            </button>
+            <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+              <img class="inline-block w-5" src="../../../assets/comment.svg" alt="comment image" />
+              <span class="px-1 text-xs font-bold text-zinc-400 hover:cursor-pointer">respond</span>
+            </button>
+            <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+              <span class="px-1 text-xs font-bold text-zinc-400 hover:cursor-pointer">Share</span>
+            </button>
+            <button class="flex items-center px-1 hover:rounded hover:bg-[#2d2d2e]">
+              <img class="inline-block w-6" src="../../../assets/dots.svg" alt="dots image" />
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
 </main>
